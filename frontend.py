@@ -5,12 +5,6 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showerror
 
-
-class TemperatureConverter:
-    @staticmethod
-    def fahrenheit_to_celsius(f):
-        return (f - 32) * 5 / 9
-
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
